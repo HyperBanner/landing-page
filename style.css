@@ -38,7 +38,7 @@ ul {
 
 .hero {
   display: flex;
-  gap: 32px;
+  gap: 128px;
 }
 
 .hero-content {
