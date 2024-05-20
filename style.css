@@ -75,7 +75,7 @@ h1 {
   align-items: center;
 }
 
-.section2 {
+.information {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -114,4 +114,70 @@ h1 {
   height: 150px;
   border-radius: 16px;
   border: 4px solid #3882f6;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 120px 500px;
+}
+
+.quote > p {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote > span {
+  align-self: flex-end;
+  color: #1f2937;
+  margin-top: 36px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.section-calltoaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.calltoaction {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  padding: 48px 128px;
+  border-radius: 8px;
+  gap: 128px;
+  align-items: center;
+}
+
+.calltoaction-main {
+  font-weight: bold;
+}
+
+.sign-up2 {
+  flex-shrink: 1;
+  width: 120px;
+  height: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: #3882f6;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 40px;
 }
