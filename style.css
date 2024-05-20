@@ -4,10 +4,36 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 body {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 16px 192px 192px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  display: flex;
 }
