@@ -90,3 +90,8 @@ h1 {
   font-size: 36px;
   font-weight: bolder;
 }
+
+.cards {
+  display: flex;
+  gap: 32px;
+}
