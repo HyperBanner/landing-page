@@ -32,10 +32,6 @@ a {
   flex: 1;
 }
 
-.footer {
-  min-height: 50px;
-}
-
 .header-content {
   display: flex;
   flex-direction: column;
@@ -209,4 +205,13 @@ a {
   font-weight: bold;
   border: 2px solid #f9faf8;
   border-radius: 6px;
+}
+
+.footer {
+  background-color: #1f2937;
+  min-height: 100px;
+  display: flex;
+  color: #f9faf8;
+  justify-content: center;
+  align-items: center;
 }
