@@ -5,3 +5,20 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-content,
+.content,
+.quote-content,
+.cta-content {
+  flex: 1;
+}
+
+.footer {
+  min-height: 50px;
+}
