@@ -175,3 +175,38 @@ a {
   font-weight: bold;
   color: #1f2937;
 }
+
+.cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882f6;
+  flex-basis: 800px;
+  height: 125px;
+  padding: 32px 96px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.cta-texts {
+  color: #f9faf8;
+}
+
+.cta-p-bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cta-button {
+  margin-left: auto;
+  padding: 4px 24px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  border: 2px solid #f9faf8;
+  border-radius: 6px;
+}
